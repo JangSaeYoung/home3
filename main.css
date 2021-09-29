@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    font-family: 'Architects Daughter', cursive;
+    /* font-family: 'Architects Daughter', cursive; */
     font-family: 'Balsamiq Sans', cursive;
 }
 
@@ -124,6 +124,9 @@ a{
 
 }
 
+
+
+
 .section .trav {
     display: flex;
     justify-content: center;
@@ -132,6 +135,23 @@ a{
     top: 20%;
     left: 38%;
 }
+
+#text_trav { 
+    font-size: 90px;
+    color: black;
+    font-family: 'Balsamiq Sans', cursive;
+} 
+ 
+#text_traven { 
+    opacity: 0; 
+    font-size: 90px;
+    color: black;
+    font-family: 'Balsamiq Sans', cursive;
+} 
+.section .trav:hover #text_traven{ 
+    opacity: 1;
+}
+
 
 .section .study {
     display: flex;
@@ -142,6 +162,29 @@ a{
     left: 40%;
 }
 
+#text_studyen { 
+    opacity: 0; 
+    font-size: 100px;
+    color: black;
+    font-family: 'Balsamiq Sans', cursive;
+
+} 
+
+
+.section .study:hover #text_studyen{ 
+    opacity: 1;
+}
+
+
+
+#text_study { 
+    opacity: 1; 
+    font-size: 90px;
+    color: black;
+    font-family: 'Balsamiq Sans', cursive;
+
+
+} 
 
 .section .pho1 {
     display: flex;
@@ -162,7 +205,8 @@ a{
 }
 
 
-.section .home {
+
+.section_a .home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,7 +216,7 @@ a{
 
 }
 
-.section .home1 {
+.section_a .home1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,11 +225,26 @@ a{
     margin-top: 15rem;
 }
 
-.section .home2 {
+.section_a .home2 {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     padding: 10rem;
     margin-top: 35rem;
+}
+
+
+
+.tool_logo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tool_logo .t_react {
+    margin-bottom: 20px;
+}
+
+.tool_logo .t_js {
+    margin-bottom: 10px;
 }
